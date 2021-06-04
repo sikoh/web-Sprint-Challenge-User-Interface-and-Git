@@ -299,14 +299,12 @@ footer nav {
   align-items: center;
   padding: 20px 2%;
   font-size: 14px;
-  color: white;
 }
 
 footer nav a {
   color: white;
   text-decoration: none;
   font-weight: normal;
-  color: black;
 }
 
 /* css for about page*/
