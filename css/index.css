@@ -137,8 +137,6 @@ html,
 body {
   height: 100%;
   font-family: "Roboto", sans-serif;
-  font-weight: bolder;
-  color: #505050;
 }
 
 h1,
@@ -158,14 +156,16 @@ p {
 .container {
   width: 800px;
   margin: 0 auto;
+  font-weight: bolder;
+  color: #505050;
 }
 
 nav {
   display: flex;
   margin: 4% 0 4%;
-  font-weight: bolder;
-  color: #505050;
+  color: white;
 }
+
 .links {
   margin-top: 3%;
   width: 100%;
@@ -299,12 +299,14 @@ footer nav {
   align-items: center;
   padding: 20px 2%;
   font-size: 14px;
+  color: white;
 }
 
 footer nav a {
   color: white;
   text-decoration: none;
   font-weight: normal;
+  color: black;
 }
 
 /* css for about page*/
@@ -320,6 +322,8 @@ footer nav a {
   border-bottom: 1px dashed black;
   padding: 0% 2% 0% 2%;
   margin-bottom: 2%;
+  font-weight: normal;
+  color: black;
 }
 
 .Working-places,
@@ -329,6 +333,8 @@ footer nav a {
   border-bottom: 1px dashed black;
   margin: 2.5%;
   width: 45%;
+  font-weight: normal;
+  color: black;
 }
 .picture-container {
   display: flex;
@@ -353,4 +359,6 @@ p {
 
 .last-container {
   padding: 0% 2% 0% 2%;
+  font-weight: normal;
+  color: black;
 }
